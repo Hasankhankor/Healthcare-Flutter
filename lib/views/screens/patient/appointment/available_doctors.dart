@@ -137,7 +137,7 @@ class _DoctorsScreenState extends State<DoctorsScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                _filterButton("Filters", LucideIcons.filter),
+                _filterButton("Filters", LucideIcons.sliders),
                 _filterButton("4 +", LucideIcons.star),
                 _filterButton("Islamabad", LucideIcons.mapPin),
               ],

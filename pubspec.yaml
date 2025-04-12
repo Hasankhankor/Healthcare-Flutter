@@ -40,7 +40,11 @@ dependencies:
   flutter_launcher_icons: ^0.14.3
   lucide_icons_flutter: ^2.0.0
   shared_preferences: ^2.5.2
-  
+  firebase_core: ^latest_version
+  firebase_auth: ^latest_version
+  cloud_firestore: ^latest_version
+  firebase_storage: ^latest_version
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -88,10 +92,12 @@ flutter:
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
-  #     fonts:
+  #       fonts:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+# Removed macOS and Linux platforms from the supported platforms.

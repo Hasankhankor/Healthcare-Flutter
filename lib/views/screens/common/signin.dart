@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:healthcare/views/components/onboarding.dart';
 import 'package:healthcare/views/components/signup.dart';
-import 'package:healthcare/views/screens/common/otpentry.dart';
+import 'package:healthcare/views/screens/common/otpEntry.dart';
 import 'package:healthcare/views/screens/common/signup.dart';
 
 class SignIN extends StatelessWidget {
